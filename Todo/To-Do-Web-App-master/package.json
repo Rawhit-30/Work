@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "express": "^4.19.2",
+    "mongoose": "^8.6.0"
+  },
+  "scripts": {
+    "start:client": "webpack serve --config client/webpack.config.js",
+    "start:server": "webpack serve --config server/webpack.config.js"
+  }
+}
